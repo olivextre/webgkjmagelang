@@ -15,8 +15,8 @@
         @endforeach
     </div>
     <div class="p-0 col-md-12 w-100 h-100 d-flex flex-column justify-content-center align-items-center  text-center position-absolute top-0" data-aos="fade-up" data-aos-delay="5000">
-        <h4 class="text-light w-75">"Masuklah melalui pintu gerbang-Nya dengan nyanyian syukur, ke dalam pelataran-Nya dengan puji-pujian; bersyukurlah kepada-Nya dan pujilah nama-Nya!"</h4>
-        <h5 class="text-light w-75">Mazmur 100:4 (TB)<i class="fas fa-android"></i></h5>
+        <h4 class="text-light w-75">He para wong kang kesajahen lan kamomotan, pada mareka kabeh marang aku, mesti aku gawe ajemu.</h4>
+        <h5 class="text-light w-75">Matteus 11:28</h5>
     </div>
 </section>
 
