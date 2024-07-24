@@ -16,7 +16,9 @@
             <th colspan="2">
                 <center>
                     Tema : "{{$item->name}}" <br>
-                <span>Pk.{{\Carbon\Carbon::parse($item->jadwal_1)->format('H:i')}} & {{\Carbon\Carbon::parse($item->jadwal_2)->format('H:i')}}</span>
+                <span>Pk.{{\Carbon\Carbon::parse($item->jadwal_1)->format('H:i')}} & {{\Carbon\Carbon::parse($item->jadwal_2)->format('H:i')}}
+                & {{\Carbon\Carbon::parse($item->jadwal_3)->format('H:i')}} & {{\Carbon\Carbon::parse($item->jadwal_4)->format('H:i')}}
+                </span>
                 </center>
             </th>
         </tr>
@@ -37,6 +39,26 @@
             <td>
                 @foreach ($item->petugas as $data)
                     @if ($item->jadwal_2 == $data->waktu)
+                        <ul>{{$data->bagian}} : {{$data->nama_petugas}}</ul>
+                    @endif
+                @endforeach
+            </td>
+        </tr>
+        <tr>
+            <td>Pukul {{\Carbon\Carbon::parse($item->jadwal_3)->format('H:i')}}</td>
+            <td>
+                @foreach ($item->petugas as $data)
+                    @if ($item->jadwal_3 == $data->waktu)
+                        <ul>{{$data->bagian}} : {{$data->nama_petugas}}</ul>
+                    @endif
+                @endforeach
+            </td>
+        </tr>
+        <tr>
+            <td>Pukul {{\Carbon\Carbon::parse($item->jadwal_4)->format('H:i')}}</td>
+            <td>
+                @foreach ($item->petugas as $data)
+                    @if ($item->jadwal_4 == $data->waktu)
                         <ul>{{$data->bagian}} : {{$data->nama_petugas}}</ul>
                     @endif
                 @endforeach
