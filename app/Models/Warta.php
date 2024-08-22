@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Warta extends Model
 {
     use HasFactory;
-    protected $fillable = ['name','file','tanggal'];
+    protected $fillable = ['name','file','date'];
 }

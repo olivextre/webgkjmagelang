@@ -47,6 +47,7 @@ class WartaController extends Controller
         Warta::create([
             'name' => $request->name,
             'file' => $filename,
+            'date' => $request->date,
             'created_at' => Carbon::now()
         ]);
         Alert::Success('Berhasil','warta berhasil ditambahkan');
@@ -78,6 +79,7 @@ class WartaController extends Controller
             $inputdata = [
             'name' => $request->name,
             'file' => $filename,
+            'date' => $date,
             'created_at' => Carbon::now()
             ];
         }else{

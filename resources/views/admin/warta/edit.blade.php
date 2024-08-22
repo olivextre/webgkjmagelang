@@ -13,7 +13,7 @@
         </div>
         <div class="form-group">
             <label for="">Tanggal</label>
-            <input type="date" name="name" required class="form-control">
+            <input type="date" name="date" required class="form-control">
         </div>
         <div class="form-group mt-2">
             <button class="btn btn-primary">Simpan</button>
