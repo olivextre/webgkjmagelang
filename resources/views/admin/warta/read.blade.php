@@ -11,7 +11,7 @@
                 <thead>
                     <tr>
                         <th>#</th>
-                        <th>Name</th>
+                        <th>bihbi</th>
                         <th>File </th>
                         <th>Tanggal</th>
                         <th>Action</th>
